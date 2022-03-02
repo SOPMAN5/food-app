@@ -1,0 +1,165 @@
+.hero {
+    background: url('../public/hero.png');
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-items: flex-start;
+  }
+  .logo{
+      margin-top: -100px;
+  }
+  .hero-text > span > h2{
+      font-family: 'Poppins', sans-serif;
+      font-size: 40px;
+      color:#ffff;
+      text-align: center;
+      margin-top: 20px;
+      line-height: 74px;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+      
+  }
+  .hero-text > span > h2 span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color:#ffff;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 74px;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    
+}
+  .sub-text{
+    margin-top: -10px !important;
+    font-size: 19px !important;
+    font-weight:100 !important ;
+    color:#ffff;
+  } 
+  .hero-btn {
+   font-family:'Poppins', sans-serif;
+   font-size: 18px;
+   font-weight: 800;
+   border:none;
+   border-radius: 5px;
+   background-color: #A8763E;
+   color:#2B1E02;
+   padding: 20px 60px;
+   margin-top: 20px;
+   cursor: pointer;
+   margin-top: 0px;
+   box-shadow: none !important
+  }
+  .hero-btn:hover{
+    background-color: #A8763E; 
+    outline: none;
+    border: none;
+  }
+  .hero-btn:focus{
+    background-color: #A8763E;
+    outline: none;
+    border: none;
+  }
+
+  .hero-image{
+ margin-top: 10px;}
+
+      @keyframes animatedBackground {
+       
+        0%{
+          background-image:url('../public/Group\ 54.png');
+        }
+        25% {
+            background-image:url('../public/ogbolo.png');
+          }
+          50% {
+            
+            background-image: url('../public/egusi.png');
+          }
+      }  
+ 
+  .ciclegraph {
+    margin-top: 90px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: calc(100px / 2 + 0px);
+    background:url('../public/Group\ 54.png');
+    background-repeat: no-repeat;
+    background-size: 120px 150px;
+    background-position: center; 
+    
+    
+    animation: animatedBackground 4s  infinite ;
+  }
+  
+  .ciclegraph:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    border:0.5px solid rgb(255, 255, 255,0.2);
+    width: calc(100% - 2px * 2);
+    height: calc(100% - 2px * 2);
+    border-radius: 50%;
+    
+  }
+.ciclegraph > img{
+position: absolute;
+right:60%;
+height: 150px;
+bottom:7%;
+}
+  
+  .ciclegraph .circle1 {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    width: 50px;
+    height: 50px;
+    margin: calc(-100px / 2);
+    background: url('../public/1.png');
+    border-radius: 50%;
+  }
+  .ciclegraph .circle2 {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    width: 50px;
+    height: 50px;
+    margin: calc(-100px / 2);
+    background: url('../public/2.png');
+    border-radius: 50%;
+  }
+  .ciclegraph .circle3 {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    width: 50px;
+    height: 50px;
+    margin: calc(-100px / 2);
+    background: url('../public/3.png');
+    border-radius: 50%;
+  }
+  .ciclegraph .circle4 {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    width: 50px;
+    height: 50px;
+    margin: calc(-100px / 2);
+    background: url('../public/4.png');
+    border-radius: 50%;
+  }
+ 
+
+
+
+  

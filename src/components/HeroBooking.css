@@ -1,0 +1,41 @@
+.row{
+    background: url('../public/hero.png');
+    height: 800px;
+}
+.column {
+    float: left;
+    padding: 10px;
+    height: 800px; /* Should be removed. Only for demonstration */
+  }
+  
+  div.left {
+    width: 40%;
+    position: relative;
+  }
+  
+  div.right {
+    width: 60%;
+    background: rgba(19, 14, 3, 0.72);
+  }
+  
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .left-content{
+   
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+     bottom: 0;
+  }
+  .logo{
+    margin-bottom:20% ;
+    margin-left: 20%;
+
+  }
+  .logo > img {
+    height: 53.65px;
+  }

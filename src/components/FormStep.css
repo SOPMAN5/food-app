@@ -1,0 +1,24 @@
+.timeline {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:5%;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  
+  .circle {
+    width: 13px;
+    height: 13px;
+    background: black;
+    border-radius: 50%;
+  }
+  
+  .dashed {
+    width: 172px;
+    height: 3px;
+    background: #E9E5D6;
+    margin-left:0;
+    margin-right: 0;
+    
+  }

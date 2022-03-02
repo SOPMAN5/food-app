@@ -1,0 +1,39 @@
+.finalsection{
+    height:20vh; 
+    margin:40px 30px 20px 100px; 
+}
+.finalsection > h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    color: rgba(15, 8, 0, 0.95);
+
+}
+.catering{
+    margin-left: -100px;
+}
+
+.catering, .text-description{
+   
+    
+}
+.group-section{
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+}
+.text-description{
+    margin-left: 100px;
+}
+.text-description p{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 30px;
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+
+}
